@@ -1,4 +1,5 @@
 class NotificationsController < ApplicationController
+  protect_from_forgery with: :null_session
   def index
     notifications = Notification.all
     render json: notifications
@@ -6,6 +7,7 @@ class NotificationsController < ApplicationController
 
   def show
     notification = Notification.find(params[:id])
+    render json: notification
   end
 
   def create
