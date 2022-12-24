@@ -28,7 +28,6 @@ rails s
 ```
 And go to your browser and type in `localhost:3000/notifications`.
 
----
 ## Frontend Application
 - Repo Link: [resilia-takehome-ui](https://github.com/mehmehmehlol/resilia-takehome-ui)
 
