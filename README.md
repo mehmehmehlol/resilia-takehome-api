@@ -1,39 +1,34 @@
-# Take Home Assignment: Mini Notification System (Dec 2022)
+# Take Home Assignment: Mini Notification System [API]
 ### Author: Megan Lo
 
-### Description
+## Description
 This is the API to support the frontend. This is written in Ruby on Rails.
 
----
-
-### Tech Stack
+## Tech Stack
 - Framework: Ruby on Rails
 - Database: SQLite
 
----
-### Installation
+## Installation
 To begin with, please make sure ruby and rails are installed in your local machine.
 
----
-
-### Get Started
+## Get Started
 1. Open terminal of this repository.
 2. To ensure all the gems of this repository are locally installed to your local machine, type in the following:
 ```bash
 bundle install
 ```
-2. Migrating the data from `app/db/seeds.rb` to your local database, type in the following:
+3. Migrating the data from `app/db/seeds.rb` to your local database, type in the following:
 ```bash
 rails db:seed
 ```
 Your terminal would start a new line if the migration is successful.
-3. To view the API itself, go to terminal and type the following:
+4. To view the API itself, go to terminal and type the following:
 ```
 rails s
 ```
 And go to your browser and type in `localhost:3000/notifications`.
 
 ---
-### Frontend Application
+## Frontend Application
 - Repo Link: [resilia-takehome-ui](https://github.com/mehmehmehlol/resilia-takehome-ui)
 
