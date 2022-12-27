@@ -28,7 +28,7 @@ notification_arr = [
   },
   {
     id: 4,
-    title: "Thank You From African American Iniative at UC Berkeley",
+    title: "Thank You From African American Initiative at UC Berkeley",
     body: "Hi, we would like to extend our thank you to SFF for believing in us as a community and organization. The grant SFF has invested has opened up a lot of opportunities for us to contribute back to our African American students.",
     to_read: false
   },
@@ -36,6 +36,18 @@ notification_arr = [
     id: 5,
     title: "Grant Form Confirmation",
     body: "Hi, thank you again for your funding to our company. Because of your funding, our company has expanded twice as much as we did a year ago. A PDF of grant confirmation is attached. Please let us know if there's any questions.",
+    to_read: false
+  }, 
+  {
+    id: 6,
+    title: "Thank You From XYZ company",
+    body: "Hi, thank you again for your funding to our company. We have expanded exponentially from 20 employees to 60 employees in the past year and have supported many youth who need homes and support. Thank you again, XYZ Company.",
+    to_read: true
+  }, 
+  {
+    id: 7,
+    title: "Grant Form Confirmation",
+    body: "Hi, thank you again for your funding to our company. A PDF of grant confirmation is attached. Please let us know if there's any questions",
     to_read: false
   }
 ]
