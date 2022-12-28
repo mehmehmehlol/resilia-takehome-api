@@ -28,6 +28,15 @@ rails s
 ```
 And go to your browser and type in `localhost:3000/notifications`.
 
+## Model
+<u><b>Notification</b></u>
+|Attributes | Datatypes |
+|:---------:|:---------:|
+| id (PK)   |  INT      |
+| title     |  VARCHAR  |
+| body      |  VARCHAR  |
+| to_read   |  BOOLEAN  |
+
 ## Frontend Application
 - Repo Link: [resilia-takehome-ui](https://github.com/mehmehmehlol/resilia-takehome-ui)
 
