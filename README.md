@@ -32,10 +32,20 @@ And go to your browser and type in `localhost:3000/notifications`.
 <u><b>Notification</b></u>
 |Attributes | Datatypes |
 |:---------:|:---------:|
-| id (PK)   |  INT      |
-| title     |  VARCHAR  |
-| body      |  VARCHAR  |
-| to_read   |  BOOLEAN  |
+| `id` (PK)   |  INT      |
+| `title`     |  VARCHAR  |
+| `body`      |  VARCHAR  |
+| `to_read`   |  BOOLEAN  |
+| `created_at`|  INT      |
+
+*Note: `created_at` is automatically created when creating the model in the database. I used this as a timestamp to show when a notification is sent, as seen in UI.
+
+|Attributes | Respresentation |
+|:---------:|:-----------|
+| `title`    | the title of a notification |
+| `body`      | the message content of a notification |
+| `to_read`   | display the read status of a notificaton - `true` means the notification has been read and `false` means the notification has not been read |
+| `created_at`| display the time of creation of a notification |
 
 ## Frontend Application
 - Repo Link: [resilia-takehome-ui](https://github.com/mehmehmehlol/resilia-takehome-ui)
